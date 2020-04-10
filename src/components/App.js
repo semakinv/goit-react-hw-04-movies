@@ -15,6 +15,8 @@ const App = () => (
         <Route path={routes.homePage} exact component={HomePage} />
         <Route path={routes.moviesPage} exact component={MoviesPage} />
         <Route path={routes.movieDetailsPage} component={MovieDetailsPage} />
+        <Route path={routes.gitHomePage} exact component={HomePage} />
+
         <Route component={NotFound} />
       </Switch>
     </Layout>
